@@ -1,0 +1,50 @@
+#friend-request{
+	width:100%;
+	position:relative;
+	.friend-request-info{
+		position:relative;
+		a{
+			
+			float:left;
+			img{
+				max-height:70px;
+			}
+		}
+		.personal-info{
+			overflow:hidden;
+			position:relative;
+			padding-left:20px;
+			a{
+				position:absolute;
+			}
+			h3{
+				padding-top:10px;
+			}
+			h3.friend-request-location{
+				padding-top:35px;
+			}
+		}
+	}
+	
+	.friend-request-options{
+		margin-top:5px;
+		position:relative;
+		a{
+			display:inline-block;
+		}
+	}
+				.ui-li-heading{
+				text-overflow:clip;
+			}
+}
+
+#collaboration-invites-view{
+	.project-header{
+		display:inline-block;
+		float:left;
+	}
+	ul{
+		display:inline-block;
+		float:right;
+	}
+}

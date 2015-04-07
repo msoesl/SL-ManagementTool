@@ -1,0 +1,153 @@
+/*Design for the preview widget*/
+#preview_widget {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	position:relative;
+}
+
+.preview_widget_listview {
+	position: relative;
+	img {
+		width:100%
+	}
+}
+
+.large_window_list_item{
+	background-size:100% 100%;
+	.ui-btn-text {
+		height:100%;
+	}
+	.ui-btn-inner {
+		height:232px;
+		a.ui-link-inherit, .ui-li-static.ui-li-has-arrow{padding:10px 40px 0px 10px;}
+	}
+	
+	position: relative;
+    float: left;
+    width: 33.3333%; /* 33.3333% incl. 2 x 1.2% margin */
+	border-width: 0; /* The 1px border would break the layout so we set it on .ui-btn-inner instead. */
+	overflow:hidden;
+	a{
+		position:relative;
+		.underlay{
+			position:absolute;
+			background: linear-gradient(to right, rgba(74,172,197,1), rgba(74,172,197,0)); /* Standard syntax (must be last) */
+			top:10px;
+			float:left;
+			opacity:.8; 
+			//background:#555;
+			width: 100%;
+			height: 100%;
+			z-index:-1;
+		}
+
+		h1{
+			position:relative;
+			float:left;
+			white-space:normal;
+			margin-top: 10px;
+			margin-left: 10px;
+			width:80%;
+		}
+		p{
+			position:relative;
+			float:left;
+			margin-left:10px;
+			margin-bottom:10px;
+		}
+		.progress_status{
+			position:relative;
+			float:right;
+			margin-top:10px;
+		}
+	}
+	.extra_project_details{
+		background:rgb(74,172,197);
+		opacity:0.94;
+		position:absolute;
+		height:200px;
+		width:100%;
+		h1{
+			margin-left: 10px;
+			margin-top: 10px;
+		}
+		p{
+			font-size:103%;
+			white-space:normal;
+			position:relative;
+			margin: 10px;
+		}
+		
+	}
+}
+
+.stage1_projects a .underlay {
+	background: linear-gradient(to right, rgba(155,187,88,1), rgba(155,187,88,0)); /* Standard syntax (must be last) */
+}
+
+.stage1_projects  .extra_project_details {
+		background:rgb(138,171,69);
+		opacity:0.94;
+}
+
+.stage2_projects a .underlay {
+	background: linear-gradient(to right, rgba(128,100,161,1), rgba(128,100,161,0)); /* Standard syntax (must be last) */
+}
+
+.stage2_projects  .extra_project_details {
+		background:rgb(128,100,161);
+		opacity:0.94;
+}
+
+
+.stage3_projects a .underlay {
+	background: linear-gradient(to right, rgba(74,172,197,1), rgba(74,172,197,0)); /* Standard syntax (must be last) */
+}
+.stage3_projects .extra_project_details {
+		background:rgb(74,172,197);
+		opacity:0.94;
+}
+
+.completed_projects a .underlay {
+	background: linear-gradient(to right, rgba(204,204,204,1), rgba(204,204,204,0)); /* Standard syntax (must be last) */
+}
+.completed_projects .extra_project_details {
+		background:rgb(204,204,204);
+		opacity:0.94;
+}
+
+.think-tab{
+	.ui-btn-active{
+		background: #9BBB58;
+		border: 1px solid #9BBB58;
+	}
+}
+
+.do-tab{
+	.ui-btn-active{
+		background: #8064A1;
+		border: 1px solid #8064A1;
+	}
+}
+
+.achieve-tab{
+	.ui-btn-active{
+		background: #4AACC5;
+		border: 1px solid #4AACC5;
+	}
+}
+
+.think-gradient-background{
+	background: linear-gradient(to right, rgba(155, 187, 88,1), rgba(155, 187, 88,0)); /* Standard syntax (must be last) */
+}
+
+.do-gradient-background{
+	background: linear-gradient(to right, rgba(128, 100, 161,1), rgba(128, 100, 161,0)); /* Standard syntax (must be last) */
+}
+
+.achieve-gradient-background{
+	background: linear-gradient(to right, rgba(74,172,197,1), rgba(74,172,197,0)); /* Standard syntax (must be last) */
+}
+
+

@@ -1,0 +1,415 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201502 will be lost/reset.
+# Last config file used to build this data file was /home/msoeslmt/tmp/awstats/awstats.msoeslmt.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2686                
+POS_VISITOR 8498                
+POS_DAY 10912               
+POS_DOMAIN 3473                
+POS_LOGIN 4009                
+POS_ROBOT 4164                
+POS_WORMS 4493                
+POS_EMAILSENDER 4624                
+POS_EMAILRECEIVER 4767                
+POS_SESSION 11582               
+POS_SIDER 11750               
+POS_FILETYPES 4902                
+POS_DOWNLOADS 5134                
+POS_OS 5182                
+POS_BROWSER 5376                
+POS_SCREENSIZE 5795                
+POS_UNKNOWNREFERER 5869                
+POS_UNKNOWNREFERERBROWSER 6084                
+POS_ORIGIN 6166                
+POS_SEREFERRALS 6304                
+POS_PAGEREFS 6448                
+POS_SEARCHWORDS 6676                
+POS_KEYWORDS 6828                
+POS_MISC 2350                
+POS_ERRORS 6887                
+POS_CLUSTER 3865                
+POS_SIDER_404 6973                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150301014614 11 1431 9191920690747
+FirstTime 20150201072727
+LastTime 20150228053855
+LastUpdate 20150301120111 11 0 10 0 0
+TotalVisits 60                  
+TotalUnique 57                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 57                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 30156 11 20 143926
+1 4 54 2330878 11 18 173573
+2 6 68 3580570 13 33 316634
+3 10 46 1830794 15 22 150780
+4 4 35 1800337 20 32 245509
+5 1 26 699803 12 59 1196250
+6 0 0 0 13 18 130676
+7 9 81 3796675 14 42 510738
+8 4 35 1800337 11 60 1213901
+9 0 0 0 16 32 373331
+10 5 60 2499755 11 16 110572
+11 6 62 2510192 14 17 140728
+12 7 69 3590622 16 31 308239
+13 1 1 10052 14 28 314737
+14 3 3 30156 18 23 100520
+15 7 69 3590622 18 48 807696
+16 8 116 4965388 16 37 432092
+17 13 164 7790882 6 10 60312
+18 7 69 3590622 11 31 302256
+19 6 68 3580570 19 69 2377499
+20 22 208 10781918 9 34 82304
+21 0 0 0 12 18 122512
+22 4 35 1800337 12 16 123880
+23 3 34 1790285 10 16 99459
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 21
+br 60 721 36101543
+us 23 80 3179309
+ua 5 5 50260
+mx 4 60 2490088
+it 4 35 1800337
+ph 3 34 1790285
+gr 3 34 1790285
+es 3 34 1790285
+ch 3 34 1790285
+sa 3 34 1790285
+co 3 34 1790285
+ie 3 34 1790285
+de 3 3 30156
+ae 3 34 1790285
+ve 3 34 1790285
+ru 2 2 20104
+np 1 25 699418
+af 1 26 699803
+id 1 20 540593
+zz 1 1 10052
+ke 1 22 666723
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 435 6876763 20150228234752 0
+bot[\s_+:,\.\;\/\\-] 83 1161024 20150228195133 0
+bingpreview 33 1780233 20150215191827 0
+netcraft 3 20104 20150211022223 0
+no_user_agent 1 0 20150213234743 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 410 7623909 0 0
+png 96 2764479 0 0
+ttf 31 4264608 0 0
+woff 1 1268 0 0
+php 36 78891 0 0
+html 65 653380 0 0
+js 571 19442877 0 0
+jpg 32 27070112 0 0
+gif 64 501427 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+blackberry 1 1
+linuxandroid 45 9
+winxp 3 3
+winlong 2 2
+linux 1 1
+win7 1224 108
+macosx 1 1
+win2003 11 1
+macosx9 2 2
+Unknown 16 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 19
+msie6.0 1 1
+blackberry 1 1
+chrome34.0.1847.131 1 1
+chrome40.0.2214.111 1 1
+chrome19.0.1062.0 1 1
+firefox10.0.1 4 4
+chrome32.0.1700.107 136 12
+firefox31.0 2 2
+chrome35.0.1916.114 1 1
+chrome36.0.1985.143 943 75
+firefox33.0 1 1
+mozilla 15 4
+netscape5.0 1 1
+chrome35.0.1916.153 136 12
+firefox14.0.1 1 1
+msie7.0 11 1
+chrome40.0.2214.89 45 9
+firefox6.0 3 3
+firefox3.6.3 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0 20150222150507
+Mozilla/5.0_(compatible;_Owler/0.4;__;_) 20150224174928
+Mozilla/2.0_(compatible;_crw) 20150209143113
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 25 46
+From1 0 0
+From2 0 0
+From3 39 39
+From4 69 1221
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://semalt.semalt.com/crawler.php 21 21
+http://buttons-for-website.com 18 18
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 172 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 34
+/drupal 1 http://msoeslmt.com/drupal
+/robots.txt 127 -
+/admin.php 1 -
+/ui-dir/scripts/ForumWidget.js 1 -
+/old/wp-admin/ 2 -
+/customer/account/login 1 http://msoeslmt.com/customer/account/login
+/ui-dir/libs/plugins/EventCalendarPlugin/js/jquery.eventCalendar.js 1 -
+/ui-dir/libs/plugins/wysiwig/dist/wysihtml5-0.3.0.min.js 1 -
+/ui-dir/libs/plugins/CommentsPlugin/js/jquery.comment.js 1 -
+/wp-admin/ 3 -
+/ui-dir/app.js 1 -
+/joomla 1 http://msoeslmt.com/joomla
+/ui-dir/libs/plugins/tinybox2/tinybox.js 1 -
+/wordpress 1 http://msoeslmt.com/wordpress
+/blog 1 http://msoeslmt.com/blog
+/admin/fckeditor/editor 1 -
+/ui-dir/scripts/previewwidget.js 1 -
+/ui-dir/libs/plugins/FlexSlider/jquery.flexslider-min.js 1 -
+/administrator/index.php 1 -
+/engine/editor/css/content.css 1 -
+/cgi-bin/ 1 -
+/ui-dir/libs/plugins/wysiwig/parser_rules/advanced.js 1 -
+/wordpress/wp-admin/ 2 -
+/wp 1 http://msoeslmt.com/wp
+/ui-dir/libs/plugins/overlay/itpoverlay.js 1 -
+/profilefiles/default/user-img.jpg 3 http://msoeslmt.com/
+/fckeditor/editor 1 -
+/blog/wp-admin/ 3 -
+/ui-dir/scripts/PageChanger.js 1 -
+/wp-login.php 1 -
+/test/wp-admin/ 3 -
+/ui-dir/libs/jquerybbq.js 1 -
+/ui-dir/libs/plugins/JQueryForms/JQueryForms.js 1 -
+/wp/wp-admin/ 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 57
+70.209.201.161 9 45 1820742 20150225034009
+31.202.241.229 4 4 40208 20150224200629
+187.123.239.28 3 34 1790285 20150207203546
+179.236.187.6 3 34 1790285 20150208200621
+200.141.184.70 3 34 1790285 20150203115837
+186.207.41.135 3 34 1790285 20150205171416
+177.38.20.114 3 34 1790285 20150222045850
+186.207.125.112 3 34 1790285 20150207180420
+177.64.210.168 3 34 1790285 20150205020625
+187.23.21.66 3 34 1790285 20150205203209
+187.34.210.67 3 34 1790285 20150209205011
+177.106.60.0 3 34 1790285 20150209235323
+177.143.82.23 3 34 1790285 20150208185934
+201.141.89.207 3 34 1790285 20150227020553
+190.73.200.149 3 34 1790285 20150211173105
+90.148.231.134 3 34 1790285 20150220125934
+78.87.72.178 3 34 1790285 20150202200258
+78.19.35.25 3 34 1790285 20150215085448
+86.96.90.235 3 34 1790285 20150210121254
+217.79.200.126 3 34 1790285 20150227073116
+180.191.112.9 3 34 1790285 20150206072235
+191.190.40.19 3 34 1790285 20150205153606
+190.255.116.212 3 34 1790285 20150207191444
+200.158.205.86 3 34 1790285 20150228013714
+179.156.27.37 3 34 1790285 20150202202309
+66.249.93.222 1 1 10052 20150203074623
+167.114.162.103 1 1 10052 20150223101246
+54.197.73.231 1 1 10052 20150226132831
+191.7.154.120 1 26 699803 20150219163258
+54.204.120.34 1 1 10052 20150201111704
+50.56.58.47 1 1 10052 20150217110533
+38.100.21.67 1 11 196001 20150220071900
+118.96.134.57 1 20 540593 20150220015507
+91.200.113.99 1 1 10052 20150213144359
+104.130.192.107 1 1 10052 20150222150507
+77.37.231.208 2 2 20104 20150224120420
+180.94.86.114 1 26 699803 20150217110532
+177.2.77.44 1 27 701310 20150216174027
+176.9.50.42 2 2 20104 20150209143113
+198.178.124.47 2 2 20104 20150220221104
+66.249.93.225 1 1 10052 20150204085716
+201.78.147.186 1 22 685015 20150220162849
+79.27.232.99 1 1 10052 20150223144841
+41.206.57.22 1 22 666723 20150215175526
+187.10.55.120 3 34 1790285 20150224155105
+54.183.153.209 2 13 1051994 20150224174928
+69.58.178.57 2 2 20104 20150220003600
+144.76.64.115 1 1 10052 20150225040818
+186.212.74.62 3 34 1790285 20150205171703
+201.75.45.217 3 34 1790285 20150227162103
+189.252.156.6 1 26 699803 20150228053855
+191.191.122.97 3 34 1790285 20150215103523
+189.13.229.165 3 34 1790285 20150203225034
+93.41.81.24 3 34 1790285 20150227165240
+84.121.177.6 3 34 1790285 20150212193748
+27.34.84.137 1 25 699418 20150221102810
+66.249.81.147 1 1 10052 20150201072727
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20150201 2 2 20104 2
+20150202 6 68 3580570 2
+20150203 7 69 3590622 3
+20150204 1 1 10052 1
+20150205 16 171 8961477 6
+20150206 3 34 1790285 1
+20150207 10 103 5380907 4
+20150208 6 68 3580570 2
+20150209 8 70 3600674 4
+20150210 3 34 1790285 1
+20150211 3 34 1790285 1
+20150212 3 34 1790285 1
+20150213 1 1 10052 1
+20150215 7 90 4247293 3
+20150216 1 27 701310 1
+20150217 2 27 709855 2
+20150219 1 26 699803 1
+20150220 9 90 3242050 6
+20150221 1 25 699418 1
+20150222 4 35 1800337 2
+20150223 2 2 20104 2
+20150224 10 52 2892539 4
+20150225 10 46 1830794 2
+20150226 1 1 10052 1
+20150227 12 136 7161140 4
+20150228 4 60 2490088 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+5mn-15mn 1
+30s-2mn 1
+0s-30s 58
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 65 653380 60 29
+/views/HomepageView.php 32 60384 0 9
+/res/fonts/gothic.ttf 31 4264608 0 22
+/libs/plugins/FlexSlider/fonts/flexslider-icon.woff 1 1268 0 0
+/controllers/CommentsController.php 1 259 0 0
+/views/ProjectView.php 1 17749 0 0
+/controllers/ForumPageController.php 1 240 0 0
+/controllers/ThreadController.php 1 259 0 0
+END_SIDER

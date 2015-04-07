@@ -1,0 +1,235 @@
+MySQL RPM upgrade to version 5.5.31-1.cp1136
+'pre' step running at Wed Jun 26 21:28:37 UTC 2013
+
+ERR file(s):
+-rw-r----- 1 mysql mysql 9492 Jun 26 21:28 /var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.err
+
+Latest 'Version' line in latest file:
+Version: '5.1.69-cll'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+
+PID file:
+ls: cannot access /var/lib/mysql/*.pid: No such file or directory
+MySQL RPM upgrade to version 5.5.31-1.cp1136
+Upgrade/install finished at Wed Jun 26 21:28:40 UTC 2013
+
+=====
+MySQL RPM upgrade to version 5.5.32-1.cp1136
+'pre' step running at Tue Jul  2 01:21:14 UTC 2013
+
+ERR file(s):
+-rw-r----- 1 mysql mysql 24136 Jun 27 16:21 /var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.err
+
+Latest 'Version' line in latest file:
+Version: '5.5.31-cll'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+
+PID file:
+-rw-rw---- 1 mysql mysql 5 Jun 27 16:21 /var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.pid
+1409
+
+Server process:
+UID        PID  PPID  C STIME TTY          TIME CMD
+mysql     1409  1280  0 Jun27 ?        00:05:45 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --user=mysql --log-error=/var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.err --pid-file=/var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.pid
+
+SERVER_TO_START=true
+MySQL RPM upgrade to version 5.5.32-1.cp1136
+Upgrade/install finished at Tue Jul  2 01:21:47 UTC 2013
+
+=====
+MySQL RPM upgrade to version 5.5.34-2.cp1136
+'pre' step running at Sat Jan  4 01:49:23 UTC 2014
+
+ERR file(s):
+-rw-r----- 1 mysql mysql 66809 Jan  4 01:42 /var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.err
+
+Latest 'Version' line in latest file:
+Version: '5.5.32-cll'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+
+PID file:
+-rw-rw---- 1 mysql mysql 5 Jan  4 01:42 /var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.pid
+1261
+
+Server process:
+UID        PID  PPID  C STIME TTY          TIME CMD
+mysql     1261  1146  0 01:42 ?        00:00:00 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --user=mysql --log-error=/var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.err --pid-file=/var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.pid
+
+SERVER_TO_START=true
+MySQL RPM upgrade to version 5.5.34-2.cp1136
+Upgrade/install finished at Sat Jan  4 01:49:47 UTC 2014
+
+=====
+MySQL RPM upgrade to version 5.5.35-1.cp1136
+'pre' step running at Thu Feb  6 00:33:59 UTC 2014
+
+ERR file(s):
+-rw-r----- 1 mysql mysql 78253 Jan  9 23:16 /var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.err
+-rw-r----- 1 mysql root  12587 Feb  6 00:23 /var/lib/mysql/cent6base-cpanel.pxe.unifiedlayer.com.err
+
+Latest 'Version' line in latest file:
+Version: '5.5.34-cll'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+
+PID file:
+-rw-rw---- 1 mysql mysql 5 Feb  6 00:23 /var/lib/mysql/cent6base-cpanel.pxe.unifiedlayer.com.pid
+1262
+
+Server process:
+UID        PID  PPID  C STIME TTY          TIME CMD
+mysql     1262  1147  0 00:23 ?        00:00:00 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --user=mysql --log-error=/var/lib/mysql/cent6base-cpanel.pxe.unifiedlayer.com.err --pid-file=/var/lib/mysql/cent6base-cpanel.pxe.unifiedlayer.com.pid
+
+SERVER_TO_START=true
+MySQL RPM upgrade to version 5.5.35-1.cp1136
+Upgrade/install finished at Thu Feb  6 00:34:24 UTC 2014
+
+=====
+MySQL RPM upgrade to version 5.5.36-1.cp1136
+'pre' step running at Mon Mar 10 14:38:22 UTC 2014
+
+ERR file(s):
+-rw-r----- 1 mysql mysql 78253 Jan  9 23:16 /var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.err
+-rw-r----- 1 mysql mysql 29287 Mar 10 14:27 /var/lib/mysql/cent6base-cpanel.pxe.unifiedlayer.com.err
+
+Latest 'Version' line in latest file:
+Version: '5.5.35-cll'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+
+PID file:
+-rw-rw---- 1 mysql mysql 5 Mar 10 14:27 /var/lib/mysql/cent6base-cpanel.pxe.unifiedlayer.com.pid
+1262
+
+Server process:
+UID        PID  PPID  C STIME TTY          TIME CMD
+mysql     1262  1147  0 14:27 ?        00:00:00 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --user=mysql --log-error=/var/lib/mysql/cent6base-cpanel.pxe.unifiedlayer.com.err --pid-file=/var/lib/mysql/cent6base-cpanel.pxe.unifiedlayer.com.pid
+
+SERVER_TO_START=true
+MySQL RPM upgrade to version 5.5.36-1.cp1136
+Upgrade/install finished at Mon Mar 10 14:38:47 UTC 2014
+
+=====
+MySQL RPM upgrade to version 5.5.37-1.cp1136
+'pre' step running at Mon Jun 23 16:14:26 UTC 2014
+
+ERR file(s):
+-rw-r----- 1 mysql mysql 78253 Jan  9 23:16 /var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.err
+-rw-r----- 1 mysql mysql 45034 May 12 22:00 /var/lib/mysql/cent6base-cpanel.pxe.unifiedlayer.com.err
+-rw-r----- 1 mysql root   5858 Jun 21 09:08 /var/lib/mysql/198-57-181-84.bluehost.com.err
+
+Latest 'Version' line in latest file:
+Version: '5.5.36-cll'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+
+PID file:
+-rw-rw---- 1 mysql mysql 5 May 13 17:33 /var/lib/mysql/mysqld.pid
+6451
+
+Server process:
+UID        PID  PPID  C STIME TTY          TIME CMD
+mysql     6451  6129  0 May13 ?        00:40:59 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --user=mysql --log-error=/var/lib/mysql/198-57-181-84.bluehost.com.err --open-files-limit=4096 --pid-file=/var/lib/mysql/mysqld.pid
+
+SERVER_TO_START=true
+MySQL RPM upgrade to version 5.5.37-1.cp1136
+Upgrade/install finished at Mon Jun 23 16:14:54 UTC 2014
+
+=====
+MySQL RPM upgrade to version 5.5.37-2.cp1136
+'pre' step running at Thu Aug 14 18:02:04 UTC 2014
+
+ERR file(s):
+-rw-r----- 1 mysql mysql 78253 Jan  9  2014 /var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.err
+-rw-r----- 1 mysql mysql 45034 May 12 22:00 /var/lib/mysql/cent6base-cpanel.pxe.unifiedlayer.com.err
+-rw-r----- 1 mysql mysql  6244 Jun 23 16:14 /var/lib/mysql/198-57-181-84.bluehost.com.err
+-rw-r----- 1 mysql root   6574 Aug 14 12:49 /var/lib/mysql/server.msoeslmt.com.err
+
+Latest 'Version' line in latest file:
+Version: '5.5.37-cll'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+
+PID file:
+-rw-rw---- 1 mysql mysql 6 Jun 23 16:14 /var/lib/mysql/mysqld.pid
+20304
+
+Server process:
+UID        PID  PPID  C STIME TTY          TIME CMD
+mysql    20304 19982  0 Jun23 ?        00:55:52 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --user=mysql --log-error=/var/lib/mysql/server.msoeslmt.com.err --open-files-limit=4096 --pid-file=/var/lib/mysql/mysqld.pid
+
+SERVER_TO_START=true
+MySQL RPM upgrade to version 5.5.37-2.cp1136
+Upgrade/install finished at Thu Aug 14 18:02:33 UTC 2014
+
+=====
+MySQL RPM upgrade to version 5.5.40-1.cp1136
+'pre' step running at Wed Nov 12 16:09:45 UTC 2014
+
+ERR file(s):
+-rw-r----- 1 mysql mysql 78253 Jan  9  2014 /var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.err
+-rw-r----- 1 mysql mysql 45034 May 12  2014 /var/lib/mysql/cent6base-cpanel.pxe.unifiedlayer.com.err
+-rw-r----- 1 mysql mysql  6244 Jun 23 16:14 /var/lib/mysql/198-57-181-84.bluehost.com.err
+-rw-r----- 1 mysql mysql 17530 Nov 11 19:11 /var/lib/mysql/server.msoeslmt.com.err
+
+Latest 'Version' line in latest file:
+Version: '5.5.37-cll'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+
+PID file:
+-rw-rw---- 1 mysql mysql 5 Aug 14 18:02 /var/lib/mysql/mysqld.pid
+6960
+
+Server process:
+UID        PID  PPID  C STIME TTY          TIME CMD
+mysql     6960  6626  0 Aug14 ?        02:00:22 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --user=mysql --log-error=/var/lib/mysql/server.msoeslmt.com.err --open-files-limit=4096 --pid-file=/var/lib/mysql/mysqld.pid
+
+SERVER_TO_START=true
+MySQL RPM upgrade to version 5.5.40-1.cp1136
+Upgrade/install finished at Wed Nov 12 16:10:29 UTC 2014
+
+=====
+MySQL RPM upgrade to version 5.5.40-1.cp1148
+'pre' step running at Thu Feb 12 16:23:54 UTC 2015
+
+ERR file(s):
+-rw-r----- 1 mysql mysql 78253 Jan  9  2014 /var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.err
+-rw-r----- 1 mysql mysql 45034 May 12  2014 /var/lib/mysql/cent6base-cpanel.pxe.unifiedlayer.com.err
+-rw-r----- 1 mysql mysql  6244 Jun 23  2014 /var/lib/mysql/198-57-181-84.bluehost.com.err
+-rw-r----- 1 mysql mysql 34776 Feb 12 01:08 /var/lib/mysql/server.msoeslmt.com.err
+
+Latest 'Version' line in latest file:
+Version: '5.5.40-cll'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+
+PID file:
+-rw-rw---- 1 mysql mysql 5 Jan 28 09:09 /var/lib/mysql/mysqld.pid
+9106
+
+Server process:
+UID        PID  PPID  C STIME TTY          TIME CMD
+mysql     9106  8770  0 Jan28 ?        00:34:22 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --user=mysql --log-error=/var/lib/mysql/server.msoeslmt.com.err --open-files-limit=4096 --pid-file=/var/lib/mysql/mysqld.pid
+
+SERVER_TO_START=true
+MySQL RPM upgrade to version 5.5.40-1.cp1148
+Upgrade/install finished at Thu Feb 12 16:24:21 UTC 2015
+
+=====
+Running build_mysql_conf
+===== /scripts/restartsrv_mysql --status
+mysql (/usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --user=mysql --log-error=/var/lib/mysql/server.msoeslmt.com.err --open-files-limit=10000 --pid-file=/var/lib/mysql/mysqld.pid) is running as mysql with PID 18871 (pidfile check method).
+MySQL RPM upgrade to version 5.5.42-2.cp1148
+'pre' step running at Thu Feb 26 16:14:53 UTC 2015
+
+ERR file(s):
+-rw-r----- 1 mysql mysql 78253 Jan  9  2014 /var/lib/mysql/cent6base-cpanel.pxe.bluehost.com.err
+-rw-r----- 1 mysql mysql 45034 May 12  2014 /var/lib/mysql/cent6base-cpanel.pxe.unifiedlayer.com.err
+-rw-r----- 1 mysql mysql  6244 Jun 23  2014 /var/lib/mysql/198-57-181-84.bluehost.com.err
+-rw-r----- 1 mysql mysql 41126 Feb 26 12:03 /var/lib/mysql/server.msoeslmt.com.err
+
+Latest 'Version' line in latest file:
+Version: '5.5.40-cll'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+
+PID file:
+-rw-rw---- 1 mysql mysql 6 Feb 12 16:34 /var/lib/mysql/mysqld.pid
+23651
+
+Server process:
+UID        PID  PPID  C STIME TTY          TIME CMD
+mysql    23651 23309  0 Feb12 ?        00:14:23 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --user=mysql --log-error=/var/lib/mysql/server.msoeslmt.com.err --open-files-limit=10000 --pid-file=/var/lib/mysql/mysqld.pid
+
+SERVER_TO_START=true
+MySQL RPM upgrade to version 5.5.42-2.cp1148
+Upgrade/install finished at Thu Feb 26 16:15:23 UTC 2015
+
+=====
+Running build_mysql_conf
+===== /scripts/restartsrv_mysql --status
+mysql (/usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --user=mysql --log-error=/var/lib/mysql/server.msoeslmt.com.err --open-files-limit=10000 --pid-file=/var/lib/mysql/mysqld.pid) is running as mysql with PID 10348 (pidfile check method).

@@ -1,0 +1,8 @@
+[
+	{ "date": "1337594400000", "type": "meeting", "title": "Project A meeting", "description": "Lorem Ipsum dolor set", "url": "http://www.event1.com/" },
+	{ "date": "1337677200000", "type": "demo", "title": "Project B demo", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", "url": "http://www.event2.com/" },
+	{ "date": "1337686200000", "type": "meeting", "title": "Test Project Brainstorming", "description": "Lorem Ipsum dolor set", "url": "http://www.event3.com/" },
+	{ "date": "1338890400000", "type": "meeting", "title": "Project B meeting", "description": "Lorem Ipsum dolor set", "url": "http://www.event5.com/" },
+	{ "date": "1339927200000", "type": "demo", "title": "Project A demo", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", "url": "http://www.event6.com/" },
+	{ "date": "1334656800000", "type": "meeting", "title": "Test Project C Brainstorming", "description": "Lorem Ipsum dolor set", "url": "http://www.event7.com/" }
+]

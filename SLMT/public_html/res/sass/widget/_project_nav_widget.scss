@@ -1,0 +1,64 @@
+#ProjectViewOptionColumn {
+	min-height:400px;
+}
+.dynamic-menu{
+	z-index:1;
+	position:fixed;
+	top:141px;
+	height:30%;
+	min-width:150px;
+	.menu{
+		position:relative;
+		float:left;
+		width:83.3333333333%;
+		ul{
+			position:relative;
+			width:100%;
+			height:100%;
+			.side-panel-item{
+				height:42px;
+				a{
+					text-decoration:none;
+					height:100%;
+				}
+			}
+		}
+	}
+	.dynamic-options-menu-size{
+		width:230px;
+	}
+	.slide-control{
+		position:relative;
+		float:left;
+		width:12%;
+		max-width:20px;
+		display:inline-block;
+		.ui-btn-inner {
+			padding: 0px;
+		}
+	}
+}
+.dynamic-options-container-size{
+	width:252px;
+}
+@media screen and (max-width: 1050px) {
+	.fixed-menu {
+		display:none;
+	}
+	.dynamic-menu{
+		display:inline-block;
+	}
+}
+
+@media screen and (min-width: 1051px) {
+	.dynamic-menu{
+		display:none;
+	}
+	.fixed-menu {
+		display:block;
+		ul{
+			height:42px;
+		}
+	}
+}
+

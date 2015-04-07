@@ -1,0 +1,55 @@
+@media screen and (min-width: 500px){
+	#permissions-table .table-header th {
+		font-weight:bold;
+		text-align:center;
+	}
+	
+	#permissions-table td {
+		width: 16.5%;
+		text-align:center;
+	}
+	
+	#permissions-table tr {
+		border-bottom: 1px dotted #ccc;
+	}
+	
+	#permissions-table td .ui-btn-text{
+		display:none;
+	}
+	
+	.perm-checkbox {
+		margin:auto;
+		max-width:50px;
+	}
+	
+	#permissions-table {
+		width:100%;
+		border-spacing: 2px;
+		border-color: gray;
+	}
+	#permissions-table .ui-btn-inner {
+		height:20px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#permissions-table .table-header th {
+		display:none;
+	}
+	
+	#permissions-table td {
+		width: 100%;
+		display:block;
+	}
+	
+	#permissions-table {
+		width:100%;
+		border-spacing: 2px;
+		border-color: gray;
+	}
+	.general-page {
+		width:90%;
+		padding-left:5%;
+		padding-right:5%;
+	}
+}

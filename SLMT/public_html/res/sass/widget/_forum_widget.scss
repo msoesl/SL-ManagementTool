@@ -1,0 +1,121 @@
+$icon-height: 25px;
+$icon-margin: 5px;
+
+.sticky {
+	height: $icon-height;
+	margin-right: $icon-margin;
+}
+
+.disabled-thread {
+	opacity: 0.75;
+}
+
+.forum-toolbar {
+	height: 50px;
+	border: $content-border;
+	padding: $project-padding;
+
+	.new-thread-button {
+		float: left;
+	}
+
+	.num-threads-label {
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		text-align: center;
+
+	}
+
+	.subscribe-button { 
+		float: right;
+
+		.ui-btn-inner {
+			padding: 2px;
+		}
+	}
+
+	a, .ui-btn {
+		background-color: #6F863D;
+		background-image: none;
+		color: white;
+		text-shadow: 1px 1px black;
+	}
+}
+
+.forum-area {
+	.ui-collapsible-set {
+		margin-top: 0px;
+	}
+
+	.nav-options {
+	
+	}
+}
+
+.thread {
+	
+	.thread-info, .thread-title {
+		color: white;
+		text-shadow: 1px 1px black;
+	}
+
+	.subscribe-icon {
+		float: right;
+		height: $icon-height;
+	}
+
+	.thread-info {
+		font-size: 12px;
+		font-weight: normal;
+	}
+
+	a {
+		background-image: none;
+		background-color: #6F863D;
+	}
+
+	&.stickied {
+		a {
+			background-color: #9BBB58;
+		}
+	}
+
+	&.disabled {
+		a {
+			background-color: #3B4130;
+		}
+	}
+}
+
+@media screen and (max-width: 796px){
+	.forum-area {
+		.small-spacing {
+			width: 5px !important;
+		}
+
+		.big-spacing {
+			width: 10px !important;
+		}
+
+		.nav-options {
+			width: 250px;
+		}
+	}
+
+	.forum-toolbar {
+		.btn-text {
+			display: none;
+		}
+
+		.new-thread-button {
+
+			.ui-btn-inner {
+				min-width: 0px;
+				padding: 15px;
+			}
+		}
+	}
+}
+

@@ -1,0 +1,209 @@
+$project-padding: 0.75em;
+$project-padding-mini: $project-padding/4;
+$project-box-background: white;
+$edit-button-width: 40px;
+
+@media screen and (min-width: 1051px) {
+	#ProjectViewHeader {
+		width: calc(56% + 450px);
+	}
+	#ProjectViewNavColumn {
+		width: 22%;
+	}
+	#ProjectViewMainContent {
+		min-height:450px;
+		width: 56%;
+	}
+	#ProjectViewOptionColumn {
+		width: 22%;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	#ProjectViewNavColumn {
+		width: 0%;
+	}
+	#ProjectViewHeader {
+		width: 100%;
+	}
+	#ProjectViewMainContent {
+		min-height:450px;
+		width: 100%;
+	}
+	#ProjectViewOptionColumn {
+		width: 22%;
+	}
+}
+
+#imageEditorDialog-popup {
+	width: 410px;
+
+	.simple-padding-medium {
+		padding: 0px;
+
+		.problem_image_uploader_input {
+			width: 400px;
+		}
+	}
+}
+
+.body {
+	h1 {
+		font-family: SMTGothic;
+		font-size: 30pt;
+	}
+
+	width: 100%;
+
+	.edit-button-wrap {
+		width: $edit-button-width;
+
+		.ui-btn {
+			width: $edit-button-width;
+		}
+	}
+
+	.column-wrapper-a {
+		width: 75%;
+		padding: $project-padding;
+
+		.title {
+			background-color: $project-box-background;
+			padding: $project-padding $project-padding 0 $project-padding;
+
+			.ui-disabled {
+				opacity: 1;
+			}
+		}
+
+		.progress-slider {
+			height: 60px;
+		}
+
+		.project-slider {
+			width: 60%;
+			.ui-slider {
+				width: 60%;
+				float: left;
+			}
+		}
+
+		.progress-slider-save {
+			width: 100px;
+			.ui-submit {
+				width: 100px;
+				float: right;
+			}
+		}
+
+		.description {
+			background-color: $project-box-background;
+			margin-top: 15px;
+			padding: $project-padding;
+		}
+
+		.checkmark-img {
+			img {
+				height: 25px;
+				width: 25px;
+				margin-top: 16px;
+			}
+		}
+	}
+
+	.column-wrapper-b {
+		width: 25%;
+		min-width: 160px;
+		max-width: 160px;
+		padding: $project-padding;
+
+		.ui-btn-inner {
+			padding: $project-padding $project-padding-mini;
+		}
+
+		.collab-picture {
+			background-color: $project-box-background;
+			padding: $project-padding $project-padding 0 $project-padding;
+			text-align: center;
+
+			.name {
+				word-wrap: break-word;
+			}
+
+			img {
+				width: 80%;
+				max-width: 150px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 480px){
+	.body {
+		.column-wrapper-a {
+			width: 100%;
+			display: block;
+			padding: $project-padding-mini;
+
+			.title {
+				padding: $project-padding-mini $project-padding;
+
+				.progress-slider-save {
+					width: 100px;
+				}
+			}
+
+			.description {
+				padding: $project-padding-mini $project-padding;
+			}
+		}
+
+		.column-wrapper-b {
+			width: 100%;
+			max-width: 100%;
+			display: block;
+			padding: $project-padding-mini;
+
+			.collab-picture {
+				padding: $project-padding-mini;
+			}
+		}
+	}
+}
+
+#editProjectDetailsPopupDialog {
+	height: 530px;
+	#project-name-form {
+		height: 215px;
+		max-height: 215px;
+	}
+	textarea {
+		height: 160px;
+		max-height: 160px;
+	}
+}
+
+.discontinued-header {
+	color: red;
+	font-weight: bold;
+}
+
+.discontinued-block {
+	background-color: rgb(203, 133, 133);
+	border-radius: 3px;
+	border: 5px solid rgb(205, 0, 0);
+	box-shadow: 5px 5px 8px black;
+	margin: 25px;
+	padding: 5px;
+
+	color: white;
+
+	.discontinued-header {
+		text-shadow: 1px 1px 1px black;
+		color: rgb(205, 0, 0);
+	}
+
+	p {
+		margin-top: 10px;
+	}
+}

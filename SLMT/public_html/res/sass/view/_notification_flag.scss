@@ -1,0 +1,15 @@
+#notification-flag p{
+		z-index:11;
+		line-height:20px;
+		background-color:red;
+		color:white;
+		position:absolute;
+		right:5px;
+		top:5px;
+		border-radius:4px;
+		text-align:center;
+		display:inline-block;
+		vertical-align:middle;
+		padding-left:2px;
+		padding-right:3px;
+}

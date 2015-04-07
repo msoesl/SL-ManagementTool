@@ -1,0 +1,399 @@
+/* Welcome to Compass. */
+
+/*
+
+Use Variables where applicable
+
+$background-color: blue;
+
+.opportunity {
+	background-color: $background-color;
+}
+
+
+becomes
+
+.opportunity {
+	background-color: blue;
+}
+
+-----------------
+
+Use nesting where applicable
+
+.opportunity {
+	p {
+		color: black;
+	}
+	
+	&.finished-opportunity {
+		p {
+			color: red;
+		}
+	}
+
+	.description {
+		p {
+			color: white;
+		}
+	}
+}
+
+becomes
+
+.opportunity p {
+	color: black;
+}
+
+.opportunity.finished-opportunity p {
+	color: red;
+}
+
+.opportunity .description p {
+	color: white;
+}
+
+navigate to res folder of smt. 
+
+compass compile - builds the styles.css file
+compass watch - builds the styles.css automatically
+*/
+
+.homepage-slider {
+	background: #000;
+}
+
+/* CSS for screen size larger than 1024 px */
+@media screen and (min-width: 1444px) {
+	.preview_widget_listview {
+		height:464px;
+	}
+	.preview_widget_listview li {
+		float: left;
+	    width: 33.3333%; /* 33.3333% incl. 2 x 1.2% margin */
+	    margin: 1%;
+		border-width: 0; /* The 1px border would break the layout so we set it on .ui-btn-inner instead. */
+	}
+	.extra_project_details{
+		top:85%;
+		display:block;
+	}
+	.nav-options-small-screen{
+		display:none;
+	}
+	.nav-options-large-screen{
+		display:inline;
+	}	
+	.website-title {
+		span:after { content: 'Servant Leadership Management Tool' }
+	}
+}
+
+
+@media screen and (min-width:768px) and  (max-width:1444px) {
+	.preview_widget_listview {
+		height:304px;
+		li {
+			.ui-btn-inner {
+				height:150px;
+			}
+		    a{
+				h1{
+					width:50%;
+				}
+			}
+			.extra_project_details{
+				top:75%;
+				display:block;
+			}
+		}
+	}
+	.nav-options-small-screen{
+		display:none;
+	}
+	.nav-options-large-screen{
+		display:inline;
+	}
+	.website-title {
+		span:after { content: 'SLMT' }
+	}
+}
+
+@media screen and (max-width:767px) {
+	.preview_widget_listview {
+		height:420px;
+		li {
+			.ui-btn-inner {
+				height:70px;
+			}
+			a{
+				h1{
+					width:80%;
+				}
+				p{
+					display:none;
+				}
+				.progress_status{
+					display:none;
+				}
+	
+			}
+			.extra_project_details{
+				display:none;
+			}
+			float: left;
+		    width: 100%; /* 33.3333% incl. 2 x 1.2% margin */
+			height: 70px;
+			border-width: 0; /* The 1px border would break the layout so we set it on .ui-btn-inner instead. */
+		}
+	}
+	.nav-options-small-screen{
+		display:inline;
+	}
+	.nav-options-large-screen{
+		display:none;
+	}
+	.website-title {
+		span:after { content: 'SLMT' }
+	}
+}
+
+@media screen and (max-width:940px) {
+	.float-right {
+		.ui-btn-inner {
+			height:20px;
+			padding:0.6em;
+			.ui-btn-text {
+				display:none;
+			}
+		}
+		.ui-input-search {
+			width: 100px;
+		}
+	}
+	
+	.header-bar-nav-icon {
+		.ui-btn-inner {
+			height:20px;
+			padding:0.6em;
+			.ui-btn-text {
+				display:none;
+			}
+			
+		}
+	}
+	.ui-header .ui-btn-icon-left .ui-icon {
+		left:14px;
+	}
+	.logInPopup .ui-icon {
+		right: 14px !important;
+	}
+}
+
+@media screen and (max-width: 610px) {
+	.float-right {
+		.ui-input-search {
+			display: none;
+		}
+	}
+}
+
+@media screen and (max-width:480px) {
+	.learn-more-title h1 {
+		font-size: 20pt;
+	}
+}
+
+
+@font-face{
+	font-family: SMTGothic;
+	src: url(../fonts/gothic.ttf) format('truetype');
+}
+
+h1 {
+	font-family: SMTGothic;
+	font-size: 30pt;
+}
+
+h2 {
+	font-family: SMTGothic;
+	font-size: 24pt;
+}
+
+h3 {
+	font-family: SMTGothic;
+	font-size: 18pt;
+} 
+
+.ui-grid-c>:nth-child(n) {
+width: 25%;
+margin-right: 0px;
+}
+
+.preview_widget_listview  .ui-btn-inner {
+	border: 1px solid black;
+}
+
+.ui-btn-hover-f {
+	border: 1px solid #333;
+}
+
+.learn-more-title {
+	font-family: SMTGothic, Arial, Courier New, Sans-Serif;
+	h1 {
+		font-size: 36pt;
+	}
+	
+	h2 {
+		font-size: 20pt;
+	}
+}
+
+.learn-more-header {
+	padding: 3px;
+	color: white;
+	h1 {
+		font-size: 20pt;
+		font-weight: bold;
+	}
+	h2 {
+		font-size: 18pt;
+		font-style: italic;
+	}
+}
+
+.learn-more-content {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	max-width:1000px;
+	overflow: hidden;
+}
+
+.learn-more-text {
+	width: 70%;
+	height: 100%;
+	width:65%;
+	padding-top:1%;
+}
+
+.learn-more-text-right{
+	padding-right:1%;
+}
+
+.learn-more-text-left{
+	padding-left:1%;
+}
+
+.learn-more-picture {
+	width: 30%;
+}
+
+.learn-more-image {
+	width: 100%;
+	padding: 2px;
+}
+
+.learn-more-left {
+	float: left;
+}
+
+.learn-more-right {
+	float: right;
+}
+
+#header_left {
+	
+}
+
+#header_right {
+	
+}
+
+#header_bar {
+	border: 1px solid black;
+}
+
+#learn-more-create-button {
+	width: 50%;
+	float: left;
+}
+
+#learn-more-view-button {
+	width: 50%;
+	float: right;
+}
+
+.float-center {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.tinner {
+	z-index:1001;
+}
+
+.tinner .tcontent {
+	height:100%;
+}
+
+.form-mask {
+	height:100%;
+	width:100%;
+	position:absolute;
+    background:rgba(0,0,0,0.7);
+	z-index:700;
+}
+
+@media screen and (min-width: 1250px) {
+	#add-new-faq-button{
+		float:right;
+	}
+}
+@media screen and (max-width: 1249px) {
+	#add-new-faq-button{
+		float:none;
+	}
+}
+
+
+@import "util/_util"; 
+@import "view/_general_view";
+@import "widget/_preview_widget";
+@import "view/_project_view";
+@import "view/_achieve_page.scss";
+@import "view/_trophy_room";
+@import "view/_personal_profile_view";
+@import "view/_user_ban_view";
+@import "view/_project_permissions";
+@import "widget/_proposed_solution_widget";
+@import "widget/_endorsement_widget";
+@import "widget/_picture_gallery";
+@import "view/_problem_submission_view";
+@import "view/_account_creation_view";
+@import "widget/_image_uploader_widget";
+@import "widget/_forum_widget";
+@import "view/_account_settings_view";
+@import "widget/_project_nav_widget";
+@import "view/_forgotten_password_view";
+@import "view/_banner_management_view";
+@import "widget/_eventCalendar";
+@import "view/_notification_flag";
+@import "view/_friend_request_view";
+@import "widget/_friend_viewer";
+@import "view/_suspended_user_email_view";
+@import "view/_frequently_asked_questions";

@@ -1,0 +1,14 @@
+$proposed-solutions-background: $project-box-background;
+
+.proposed-solution-widget {
+	.widget-header {
+
+		.ui-btn-active {
+			text-shadow: none;
+		}
+	}
+
+	.proposed-solution-area {
+		background-color: $proposed-solutions-background;
+	}
+}

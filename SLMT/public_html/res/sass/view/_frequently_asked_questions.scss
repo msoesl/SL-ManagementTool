@@ -1,0 +1,26 @@
+.faq-edit-container{
+	position:relative;
+	.faq{
+		display:inline-block;
+	}
+	.faq-edit-options{
+		padding-top:15px;
+		.faq-edit-button{
+			display:inline-block;
+			.ui-btn-inner{
+				padding:20px;
+				.ui-icon{
+					left:50%;
+					margin-left:-9px;
+				}
+			}
+		}
+	}
+}
+
+.faq-view{
+	h3{
+		font-style:italic;
+		margin-bottom:10px;
+	}
+}

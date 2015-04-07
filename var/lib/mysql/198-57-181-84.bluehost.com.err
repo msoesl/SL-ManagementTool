@@ -1,0 +1,89 @@
+140512 22:01:05 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140512 22:01:05 [Note] Plugin 'FEDERATED' is disabled.
+140512 22:01:05 InnoDB: The InnoDB memory heap is disabled
+140512 22:01:05 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140512 22:01:05 InnoDB: Compressed tables use zlib 1.2.3
+140512 22:01:05 InnoDB: Using Linux native AIO
+140512 22:01:05 InnoDB: Initializing buffer pool, size = 128.0M
+140512 22:01:05 InnoDB: Completed initialization of buffer pool
+140512 22:01:05 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+140512 22:01:05  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+140512 22:01:05  InnoDB: Waiting for the background threads to start
+140512 22:01:06 InnoDB: 5.5.36 started; log sequence number 3446098
+140512 22:01:06 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+140512 22:01:06 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+140512 22:01:06 [Note] Server socket created on IP: '0.0.0.0'.
+140512 22:01:06 [Note] Event Scheduler: Loaded 0 events
+140512 22:01:06 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.36-cll'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+140513 12:46:23 [Warning] IP address '180.69.254.133' could not be resolved: Name or service not known
+140513 17:33:27 [Note] /usr/sbin/mysqld: Normal shutdown
+
+140513 17:33:27 [Note] Event Scheduler: Purging the queue. 0 events
+140513 17:33:29 [Warning] /usr/sbin/mysqld: Forcing close of thread 813  user: 'cphulkd'
+
+140513 17:33:29 [Warning] /usr/sbin/mysqld: Forcing close of thread 771  user: 'eximstats'
+
+140513 17:33:29 [Warning] /usr/sbin/mysqld: Forcing close of thread 765  user: 'leechprotect'
+
+140513 17:33:29  InnoDB: Starting shutdown...
+140513 17:33:30  InnoDB: Shutdown completed; log sequence number 3446108
+140513 17:33:30 [Note] /usr/sbin/mysqld: Shutdown complete
+
+140513 17:33:30 mysqld_safe mysqld from pid file /var/lib/mysql/198-57-181-84.bluehost.com.pid ended
+140513 17:33:42 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140513 17:33:42 [Note] Plugin 'FEDERATED' is disabled.
+140513 17:33:42 InnoDB: The InnoDB memory heap is disabled
+140513 17:33:42 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140513 17:33:42 InnoDB: Compressed tables use zlib 1.2.3
+140513 17:33:42 InnoDB: Using Linux native AIO
+140513 17:33:42 InnoDB: Initializing buffer pool, size = 128.0M
+140513 17:33:42 InnoDB: Completed initialization of buffer pool
+140513 17:33:43 InnoDB: highest supported file format is Barracuda.
+140513 17:33:43  InnoDB: Waiting for the background threads to start
+140513 17:33:44 InnoDB: 5.5.36 started; log sequence number 3446108
+140513 17:33:44 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+140513 17:33:44 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+140513 17:33:44 [Note] Server socket created on IP: '0.0.0.0'.
+140513 17:33:44 [ERROR] /usr/sbin/mysqld: Table './mysql/db' is marked as crashed and should be repaired
+140513 17:33:44 [Warning] Checking table:   './mysql/db'
+140513 17:33:44 [ERROR] 1 client is using or hasn't closed the table properly
+140513 17:33:44 [Note] Event Scheduler: Loaded 0 events
+140513 17:33:44 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.36-cll'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+140513 17:33:55 [ERROR] /usr/sbin/mysqld: Table './cphulkd/auths' is marked as crashed and should be repaired
+140513 17:33:55 [Warning] Checking table:   './cphulkd/auths'
+140513 17:33:55 [ERROR] /usr/sbin/mysqld: Table './cphulkd/logins' is marked as crashed and should be repaired
+140513 17:33:55 [Warning] Checking table:   './cphulkd/logins'
+140513 17:33:55 [ERROR] /usr/sbin/mysqld: Table './cphulkd/whitelist' is marked as crashed and should be repaired
+140513 17:33:55 [Warning] Checking table:   './cphulkd/whitelist'
+140518 19:54:40 [Warning] IP address '42.117.1.145' could not be resolved: Name or service not known
+140522 20:43:03 [Warning] IP address '112.124.19.107' could not be resolved: Name or service not known
+140522 23:29:53 [Warning] IP address '216.244.83.10' could not be resolved: Name or service not known
+140524  4:34:33 [Warning] IP address '123.124.23.2' could not be resolved: Name or service not known
+140524  5:15:49 [Warning] IP address '61.147.103.160' could not be resolved: Name or service not known
+140525  5:35:06 [Warning] IP address '218.85.137.236' could not be resolved: Name or service not known
+140526 18:13:52 [Warning] IP address '210.24.0.197' could not be resolved: Name or service not known
+140528  1:49:14 [Warning] IP address '59.16.254.2' could not be resolved: Name or service not known
+140604  7:58:17 [Warning] IP address '111.74.238.147' could not be resolved: Name or service not known
+140604 21:57:59 [Warning] IP address '42.121.117.116' could not be resolved: Name or service not known
+140605  1:43:22 [Warning] IP address '61.147.110.72' could not be resolved: Name or service not known
+140606  3:48:26 [Warning] IP address '61.155.217.114' could not be resolved: Name or service not known
+140606 15:31:40 [Warning] IP address '115.29.136.8' could not be resolved: Name or service not known
+140608 11:34:37 [Warning] IP address '119.10.10.95' could not be resolved: Name or service not known
+140613 18:09:04 [Warning] IP address '98.126.49.235' has been resolved to the host name '98.126.49.235.static.krypt.com', which resembles IPv4-address itself.
+140621  9:08:41 [Warning] IP address '221.229.162.121' could not be resolved: Name or service not known
+140623 16:14:26 [Note] /usr/sbin/mysqld: Normal shutdown
+
+140623 16:14:26 [Note] Event Scheduler: Purging the queue. 0 events
+140623 16:14:26  InnoDB: Starting shutdown...
+140623 16:14:28  InnoDB: Shutdown completed; log sequence number 3446118
+140623 16:14:28 [Note] /usr/sbin/mysqld: Shutdown complete
+
+140623 16:14:29 mysqld_safe mysqld from pid file /var/lib/mysql/mysqld.pid ended

@@ -1,0 +1,36 @@
+.es-carousel ul{
+	display:block;
+}
+#gallery-holder {
+	#rg-gallery {
+		padding-bottom:1em;
+	}
+	padding-right:1em;
+}
+@media screen and (min-width:768px) {
+	#gallery-holder {
+		#rg-gallery {
+			max-height: 200px;
+			max-width: 250px;
+			padding-bottom:1em;
+		}
+	}
+	.rg-thumbs {
+		display:none;
+	}
+	
+	.rg-view {
+		display:none;
+	}
+	
+	#project_view_title {
+		min-height:150px;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.td-block{
+		width: 100%;
+		display: block;
+	}
+}

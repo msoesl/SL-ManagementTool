@@ -1,0 +1,80 @@
+#reflection-collapsible {
+	img {
+		max-width:100%;
+	}
+	table .first {
+		width:30%;
+	}
+	
+	table tr td{
+		padding:0.4em 0;
+	}
+	table .second h3 {
+		font-size: 20pt;
+		font-family: SMTGothic;
+	}
+	
+	table .second {
+		padding-left:2%;
+		width:68%;
+	}
+	
+	@media screen and (max-width: 480px) {
+		.first {
+			display:block;
+			width:98% !important;
+		}
+		.second {
+			display:block;
+			width:100% !important;
+		}
+	}
+	
+	.ui-collapsible-content {
+	padding:0px;
+	}
+	.collapsible-content {
+		padding:1em;
+		height:240px;
+		background:white;
+		overflow-y:auto;
+		.editLink {
+			float:right;
+		}
+		ul {
+			list-style: inherit !important;
+			padding-left: 40px !important;
+		}
+		ol {
+			list-style: decimal !important;
+			padding-left: 40px !important;
+		}
+	}
+	
+	.popup-heading {
+		.ui-collapsible-heading {
+			padding: 0px 14px;
+		}
+		.ui-btn-inner {
+			padding-top:1.2em;
+			padding-bottom:1.2em;
+		}
+	}
+	.popup-content {
+		padding:1em;
+		font-family:arial;	
+		max-height: 300px;
+		overflow-y: auto;
+	}
+	iframe {
+		margin-right:1em;
+		height: 155px !important;
+		width: 98% !important;
+		padding-right:1em;
+	}
+}
+
+.accomplishment-picture {
+	width:100%;
+}
+

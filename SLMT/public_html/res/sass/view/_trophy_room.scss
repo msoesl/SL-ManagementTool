@@ -1,0 +1,64 @@
+.filter-page {
+	width:80%;
+	margin-left:10%;
+	height:100%;
+}
+
+.filter-title{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.projects-viewer-container{
+//	position:relative;
+//	width:100%;
+//	background:white;
+//	padding:5px;
+}
+
+.nav-options{
+	
+}
+
+.nav-row{
+	text-align:center;
+}
+
+.big-nav-button{
+	display:inline-block;
+	.ui-btn-inner{ 
+		width:75px;
+		.ui-btn-text{
+		}
+	}
+	
+}
+
+.small-nav-button{
+	display:inline-block;
+	.ui-btn-inner{ 
+		width:35px;
+		line-height:.75em;
+		.ui-btn-text{
+			font-size:15px;
+		}
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.info-static{
+		display:none;
+	}
+	#learn-more-popup-button{
+		display:inline-block;
+	}
+}
+
+@media screen and (min-width: 1051px) {
+	.info-static{
+		display:block;
+	}
+	#learn-more-popup-button{
+		display:none;
+	}
+}

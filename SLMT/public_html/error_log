@@ -1,0 +1,785 @@
+[26-Sep-2014 19:40:20 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'msoeslmt_main.project' doesn't exist' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:413
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(413): PDOStatement->execute(Array)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(1605): ORM::_execute('SELECT `project...', Array, 'default')
+#2 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(613): ORM->_run()
+#3 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(602): ORM->_find_many()
+#4 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM->find_many()
+#5 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#6 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#7 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#8 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 413
+[26-Sep-2014 23:53:40 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[27-Sep-2014 13:06:26 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[27-Sep-2014 13:11:52 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[27-Sep-2014 13:53:08 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[27-Sep-2014 18:44:25 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[28-Sep-2014 02:50:12 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[28-Sep-2014 18:29:58 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[29-Sep-2014 01:20:01 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[29-Sep-2014 03:31:17 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[29-Sep-2014 10:38:55 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[29-Sep-2014 15:39:44 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[29-Sep-2014 22:32:33 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[30-Sep-2014 00:20:31 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[30-Sep-2014 02:18:19 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[30-Sep-2014 16:21:04 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[01-Oct-2014 06:08:37 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[01-Oct-2014 06:15:34 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[01-Oct-2014 06:21:27 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[01-Oct-2014 07:00:51 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[01-Oct-2014 08:55:07 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[01-Oct-2014 11:48:56 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[01-Oct-2014 14:42:57 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[01-Oct-2014 14:47:21 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[01-Oct-2014 18:39:13 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[01-Oct-2014 19:55:09 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[01-Oct-2014 20:25:07 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[02-Oct-2014 01:26:14 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[02-Oct-2014 11:14:36 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[02-Oct-2014 12:44:09 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[02-Oct-2014 15:44:26 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[03-Oct-2014 02:46:57 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[03-Oct-2014 17:53:50 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[04-Oct-2014 06:01:14 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[04-Oct-2014 08:58:18 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[04-Oct-2014 10:49:07 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[04-Oct-2014 12:55:54 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[04-Oct-2014 15:54:15 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[04-Oct-2014 16:46:23 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[04-Oct-2014 18:56:37 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[04-Oct-2014 19:49:07 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[05-Oct-2014 08:11:02 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[05-Oct-2014 09:02:04 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[06-Oct-2014 08:38:16 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[06-Oct-2014 10:31:13 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[06-Oct-2014 13:16:19 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[06-Oct-2014 18:15:29 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[07-Oct-2014 03:48:31 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[07-Oct-2014 04:48:31 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[07-Oct-2014 05:47:09 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[07-Oct-2014 05:57:25 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[07-Oct-2014 13:33:39 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[08-Oct-2014 06:01:59 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[08-Oct-2014 08:57:02 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[08-Oct-2014 09:43:51 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[09-Oct-2014 03:32:38 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[09-Oct-2014 07:16:29 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[10-Oct-2014 01:27:14 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[10-Oct-2014 07:37:59 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[10-Oct-2014 10:44:43 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[10-Oct-2014 13:34:01 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[10-Oct-2014 19:07:11 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[10-Oct-2014 20:23:41 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[10-Oct-2014 21:49:11 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[11-Oct-2014 02:04:07 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[11-Oct-2014 07:37:37 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[11-Oct-2014 08:05:22 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[11-Oct-2014 20:07:31 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[12-Oct-2014 01:13:31 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[12-Oct-2014 02:34:20 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[12-Oct-2014 03:44:29 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[12-Oct-2014 10:33:28 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[12-Oct-2014 11:23:51 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[12-Oct-2014 15:39:35 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'msoeslmt_admin'@'localhost' to database 'msoeslmt_main'' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254
+[12-Oct-2014 15:43:04 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'msoeslmt_servicemanagementtool.Invite_Permission' doesn't exist' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:413
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(413): PDOStatement->execute(Array)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(1605): ORM::_execute('SELECT * FROM `...', Array, 'default')
+#2 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(613): ORM->_run()
+#3 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(602): ORM->_find_many()
+#4 /home/msoeslmt/public_html/models/ProjectModel.php(546): ORM->find_many()
+#5 /home/msoeslmt/public_html/views/headerbar.php(106): ProjectModel::getNewCollaborationInvitesForAccount('1')
+#6 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#7 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 413
+[12-Oct-2014 15:48:01 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'msoeslmt_servicemanagementtool.Invite_Permission' doesn't exist' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:413
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(413): PDOStatement->execute(Array)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(1605): ORM::_execute('SELECT * FROM `...', Array, 'default')
+#2 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(613): ORM->_run()
+#3 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(602): ORM->_find_many()
+#4 /home/msoeslmt/public_html/models/ProjectModel.php(546): ORM->find_many()
+#5 /home/msoeslmt/public_html/views/headerbar.php(106): ProjectModel::getNewCollaborationInvitesForAccount('1')
+#6 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#7 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 413
+[12-Oct-2014 15:48:23 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'msoeslmt_servicemanagementtool.Invite_Permission' doesn't exist' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:413
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(413): PDOStatement->execute(Array)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(1605): ORM::_execute('SELECT * FROM `...', Array, 'default')
+#2 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(613): ORM->_run()
+#3 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(602): ORM->_find_many()
+#4 /home/msoeslmt/public_html/models/ProjectModel.php(546): ORM->find_many()
+#5 /home/msoeslmt/public_html/views/headerbar.php(106): ProjectModel::getNewCollaborationInvitesForAccount('1')
+#6 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#7 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 413
+[26-Feb-2015 09:15:16 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/msoeslmt/public_html/libs/idiorm/idiorm.php:254
+Stack trace:
+#0 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(254): PDO->__construct('mysql:host=loca...', 'msoeslmt_admin', 'Greenleaf@123', NULL)
+#1 /home/msoeslmt/public_html/libs/idiorm/idiorm.php(236): ORM::_setup_db('default')
+#2 /home/msoeslmt/public_html/models/ProjectModel.php(530): ORM::for_table('project')
+#3 /home/msoeslmt/public_html/views/SearchBar.php(15): ProjectModel::getAllProjectsForFiltering()
+#4 /home/msoeslmt/public_html/views/headerbar.php(58): include_once('/home/msoeslmt/...')
+#5 /home/msoeslmt/public_html/index.php(25): require_once('/home/msoeslmt/...')
+#6 {main}
+  thrown in /home/msoeslmt/public_html/libs/idiorm/idiorm.php on line 254

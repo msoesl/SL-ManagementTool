@@ -1,0 +1,48 @@
+$project-box-background: white;
+
+textarea {
+	position:relative;
+	display:inline-block;
+	width:70%;
+	padding:1%;
+	margin:1%;
+	resize:none;
+	box-sizing:border-box;
+	vertical-align:top;
+}
+#box-div{
+	margin-top: 2%;
+	background-color: $project-box-background;
+	
+	}
+#account-creation-view {
+	width:70%;
+	margin-left:13%;
+	margin-top: 2%;
+	
+	}
+	
+	
+	.title {
+			
+			font-size:30px;
+			font-weight:bold;
+		}
+	.message-container{
+			font-size:18px;
+			font-weight:bold;
+	}
+	
+	#text-container {
+		width:40%;
+		padding:1%;
+		margin:1%;
+	}
+	#login-information-fields-container {
+		width:56%;
+		padding:1%;
+		margin:1%;
+	}
+	#error-message {
+		color:red;
+	}

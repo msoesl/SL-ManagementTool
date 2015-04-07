@@ -1,0 +1,93 @@
+.banner-management-view {
+	width:80%;
+	margin-left:10%;
+	
+	.banner-cell {
+		width:30%;
+	}
+	.banner-cell img {
+		width:100%;
+	}
+	tr {
+		padding-top:0.5em;
+		padding-bottom:0.5em;
+	}
+	.second {
+		padding-left:1em;
+	}
+	.last {
+		padding-left:1em;
+	}
+	.learn-more-title .ui-btn {
+		width:225px;
+		float:right;
+	}
+@media screen and (max-width: 796px){
+	.ui-block-a {
+		width:100%
+	}
+	.ui-block-b, .ui-block-b .ui-btn {
+		width:100%
+	}
+	p {
+		text-align:center;
+	}
+	.banner-cell {
+		width:100% !important;
+	}
+	
+	.banner-info, td hr {
+		display:none;
+	}
+	td {
+		display:block;
+	}
+	.banner-cell img{
+		width:100% !important;
+	}
+	.last {
+		padding-left:0px;
+	}
+}
+@media screen and (max-width: 500px){
+	width: 96%;
+	margin-left: 2%;
+}
+
+	.tbox, .tinner, .tcontent {
+		width:100% !important;
+		left: 0px !important;
+	}
+}
+
+
+
+.banner-edit-view {
+	.banner-cell {
+		width:40%;
+	}
+	.banner-cell img {
+		width:100%;
+	}
+	.popup-heading {
+		background:rgb(175, 175, 233);
+		.ui-collapsible-heading {
+			padding: 15px 40px;
+		}
+		h3 {
+			font-size:20pt;
+			font-family: SMTGothic;
+		}
+	}
+	td {
+		padding-left:1em;
+		padding-right:1em;
+	}
+	.popup-content {
+		font-family:arial;	
+		max-height: 300px;
+		overflow-y: auto;
+		padding:1em;
+	}
+}
+
